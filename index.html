@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link a boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link del css -->
+    <link rel="stylesheet" href="main.css">
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Buon cibo</title>
+</head>
+<body>
+    <!-- seccion del nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <span class=" text-secundary fs-2 fw-bold">Buon cibo</span> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pags/saladas.html">Recetas Saladas</a>
+            </li>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pags/dulces.html">Recetas Dulces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pags/nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pags/contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+<!-- header carrusel con imagenes  -->
+    <header>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/salado1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="img/salado2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/salado 3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/dulce 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/dulce 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/dulce 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <div class="text-header">
+        <h1>BUON CIBO</h1>
+        <p>! la mejor paginas de resetas ¡</p>
+      </div> 
+    </header> -->
+
+<!-- main con presentacion del proyecto -->
+    <main>
+        <section class=" bg-secondary bg-secondary.bg-gradient text-light fw-2 me-auto">
+
+            <div class="section-text">
+              <h1 class="fs-3 pt-4 text-center ">Recetas Especiales De La Casa </h1>
+              
+              <p class="pt-4">Estas recetas las tomamos principalmente de la cultura argentina, basandonos principalmente en lo que se consume normalmente en fechas festivas en este pais.
+              Estas recomendaciones se reflejara lo lindo y hermoso que la Argentina nos puede brindar.
+              </p>
+            </div>
+
+    <!-- cartas  saladas-->
+            <div class="recetas">
+              <div class="card-group">
+                <div class="card">
+                  <img src="img/empanadas.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Empanadas</h5>
+                    <p class="card-text">Una empanada es una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita. El relleno puede incluir carnes rojas o blancas, pescado, verduras o fruta.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="img/locro.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Locro</h5>
+                    <p class="card-text">El locro es una comida típica de los pueblos andinos, extendida hoy por todo el país. Suele ser un plato habitual en invierno y en los días de fiestas nacionales, como el día de la independencia.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="img/Milanesa.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Milanesa</h5>
+                    <p class="card-text">La milanesa es un filete, normalmente de carne vacuna, rebozado, que se cocina frito o al horno. Por extensión, se llama milanesa a cualquier rebanada de un ingrediente rebozado y cocido de manera similar, por lo que existen milanesas de cerdo, pollo,  pescado, soja, berenjena, entre otros ingredientes.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+<!-- cartas dulces -->
+            <div class="section-text">
+              <h1 class="fs-3 pt-4 text-center ">Recetas De Recomendacion Dulces.</h1>
+            
+            </div>
+            <div class="recetas">
+              
+              <div class="card-group">
+                <div class="card">
+                  <img src="img/tiramisu.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tiramisu</h5>
+                    <p class="card-text">Postre de origen italiano que se prepara con láminas de masa de bizcocho o bizcochuelo empapadas en café con licor y que se alternan con una crema compuesta de claras a punto de nieve mezcladas con un queso suave, azúcar y crema de leche líquida; generalmente se espolvorea la última capa de crema con cacao en polvo, café molido y azúcar glas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="img/brownie.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Brownie</h5>
+                    <p class="card-text">Un brownie es un bizcocho de chocolate pequeño, típico de la gastronomía de Estados Unidos. Se llama así por su color marrón oscuro, o brown en inglés. A veces se cubre con jarabe espeso de chocolate y puede llevar dentro trocitos de nueces, chocolate butterscotch o mantequilla de maní.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="img/galletas.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">galletas con chips</h5>
+                    <p class="card-text">La galleta es una preparación culinaria de pequeño tamaño, dulce o salada, horneada y hecha normalmente a base de harina de trigo, huevos, azúcar, mantequilla o aceites vegetales o grasas animales.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </section>
+    </main>
+
+<!-- footer -->
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <nav class="row">
+        
+        
+
+        <!-- primer menu -->
+        <ul class="col-4 list-unstyled">
+          <li class="fw-bold text-uppercase">
+            direcctorios
+          </li>
+
+          <li>
+            <a href="index.html"class="text-reset">inicio </a>
+          </li>  
+
+          <li>
+            <a href="pags/saladas.html"class="text-reset">Recetas saladas</a>
+          </li> 
+
+          <li>
+            <a href="pags/dulces.html"text-reset">Recetas Dulces</a>
+          </li>
+
+          <li>
+            <a href="pags/nosotros.html"class="text-reset">Sobre nosotros</a>
+          </li>
+          <li>
+            <a href="pags/contactanos.html"class="text-reset">Contactanos</a>
+          </li>
+        </ul>
+
+        <!-- menu 2   -->
+        <ul class="col-4 list-unstyled">
+
+          <li class="fw-bold text-uppercase">
+            Informacion
+          </li>
+          <li>
+            correo@gmail.com
+          </li>
+
+          <li>
+            11 4121-0213
+          </li>  
+
+          <li>
+            direccion 1231
+          </li> 
+        </ul>
+        <!-- menu redes-->
+        <ul class="col-4 list-unstyled">
+          <li class="fw-bold text-uppercase">
+            redes sociales
+          </li>
+            <li class="d-flex">
+              <a href=""class="text-reset">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href=""class="text-reset">
+                <i class="fa-brands fa-instagram"></i>
+              </a>  
+              <a href=""class="text-reset">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </footer>
+
+
+
+
+    <!-- link a boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
