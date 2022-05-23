@@ -5,13 +5,21 @@
 
 .container-grid{
     display: grid;
-    padding: 20px;
+    padding: 10px;
     grid-template-columns: repeat(2, 1fr);  
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
     "salado-1 salado-2"
     "salado-3 salado-4";
-
+    h3{
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    
+    li{
+        font-size: 1rem;
+    
+    }
 }
 
 /* div 1 de la seccion salado */
@@ -24,23 +32,7 @@
     border: solid black 2px;
     border-radius: 60px;
 
-
-h3{
-    font-weight: bold;
-    font-size: 1.8rem;
 }
-
-li{
-    font-size: 1rem;
-
-}
-}
-
-
-
-
-
-
 
 
 /* div 1 de la seccion salado */
@@ -53,14 +45,6 @@ li{
     border: solid black 2px;
     border-radius: 60px;
 
-h3{
-    font-weight: bold;
-    font-size: 1.8rem;
-}
-li{
-    font-size: 1rem;
-    color: white;
-}
 }
 
 
@@ -77,14 +61,6 @@ li{
     border: solid black 2px;
     border-radius: 60px;
 
-h3{
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-li{
-    font-size: 1rem;
-    
-}
 }
 
 
@@ -99,12 +75,4 @@ li{
     border: solid black 2px;
     border-radius: 60px;
 
-h3{
-    font-weight: bold;
-    font-size: 1.5
-}
-li{
-    font-size: 1rem;
-
-}
 }

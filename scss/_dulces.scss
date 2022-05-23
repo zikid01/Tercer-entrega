@@ -1,0 +1,76 @@
+#main-dulces{
+    background-color: rgb(19, 18, 18);
+}
+
+.container-dulce-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+    "dulce-1 dulce-2"
+    "dulce-3 dulce-4";
+    h3{
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    
+    li{
+        font-size: 1rem;
+    }
+
+}
+
+
+
+/* div 2 de la seccion dulce */
+.dulce-1{
+    grid-area: dulce-1;
+    background-image: url(../img/tiramisu2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+
+}
+
+
+
+/* div 2 de la seccion dulce */
+
+.dulce-2{
+    grid-area: dulce-2;
+    background-image: url(../img/brownie.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+
+
+
+/* div 3 de la seccion dulce */
+.dulce-3{
+    grid-area: dulce-3;
+    background-image: url(../img/helado.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+
+
+
+/* div 4 de la seccion dulce */
+.dulce-4{
+    grid-area: dulce-4;
+    background-image: url(../img/frola.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+

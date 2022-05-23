@@ -27,6 +27,8 @@
 
 .card{
     margin: 20px;
+    border: solid 1px black;
+    background-color:rgb(105, 117, 125) ;
 
     img{
     height: 400px;
@@ -34,15 +36,15 @@
 
 
 .card-body{
-    background-color:rgb(204, 204, 204) ;
+    
     h5{
         color: rgb(0, 0, 0);
         font-weight: bold;
         font-size: 1.6em;
     }
     p{
-        color: rgb(88, 88, 88);
-        font-size: 0.8em;
+        color: rgb(46, 46, 46);
+        font-size: 1em;
         margin: 15px;
     }
 }
