@@ -1,0 +1,110 @@
+#main-saladas{
+    background-color: rgb(27, 26, 26);
+}
+
+
+.container-grid{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+    "salado-1 salado-2"
+    "salado-3 salado-4";
+
+}
+
+/* div 1 de la seccion salado */
+.salado-1{
+    grid-area: salado-1;
+    background-image: url(../img/empanadas.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+
+
+h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+li{
+    font-size: 1rem;
+
+}
+}
+
+
+
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-2{
+    grid-area: salado-2;
+    background-image: url(../img/locro.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+
+h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+li{
+    font-size: 1rem;
+    color: white;
+}
+}
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-3{
+    grid-area: salado-3;
+    background-image: url(../img/Milanesa.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+li{
+    font-size: 1rem;
+    
+}
+}
+
+
+
+/* div 1 de la seccion salado */
+.salado-4{
+    grid-area: salado-4;
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+
+h3{
+    font-weight: bold;
+    font-size: 1.5
+}
+li{
+    font-size: 1rem;
+
+}
+}
