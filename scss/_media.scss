@@ -92,3 +92,62 @@
     .Bienvenido{
         display: none;
     }
+
+    .main_nosotros{
+        background-color: #222;
+        display: flex;
+        
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+    
+    img{
+        padding-left: 50px;
+        max-height: 400px;
+        width: 400px;
+        border-radius: 50px;
+    }
+    }
+    .nosotros-text{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        color: rgb(228, 228, 228);
+        font-size: 0.8rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    }
+
+    .main-nosotros-2{
+        background-color: #222;
+        padding-bottom: 100px;
+        display: flex;
+        
+    
+    
+    img{
+        height: 300px;
+        width: 300px;
+        padding-right: 10px;
+        border-radius: 40px;
+    }
+    }
+    .nosotros-text-2{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        color: white;
+        font-size: 0.8rem;
+        padding-left: 20px;
+        padding-right: 50px;
+    
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    }

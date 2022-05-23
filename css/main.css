@@ -54,9 +54,6 @@ main {
   0% {
     transform: translateX(800px);
     opacity: 0; }
-  50% {
-    transform: translateX(400px);
-    opacity: 0.5; }
   100% {
     transform: translateX(0px);
     opacity: 1; } }
@@ -298,7 +295,7 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   text-align: start;
-  color: #929292;
+  color: #e4e4e4;
   font-size: 1.6rem;
   padding-left: 100px;
   padding-right: 100px; }
@@ -375,3 +372,48 @@ nav li:hover {
 
 .Bienvenido {
   display: none; }
+
+.main_nosotros {
+  background-color: #222;
+  display: flex;
+  padding-top: 20vh;
+  padding-bottom: 30vh; }
+  .main_nosotros img {
+    padding-left: 50px;
+    max-height: 400px;
+    width: 400px;
+    border-radius: 50px; }
+
+.nosotros-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  color: #e4e4e4;
+  font-size: 0.8rem;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .nosotros-text h2 {
+    font-size: 2rem;
+    font-weight: bold; }
+
+.main-nosotros-2 {
+  background-color: #222;
+  padding-bottom: 100px;
+  display: flex; }
+  .main-nosotros-2 img {
+    height: 300px;
+    width: 300px;
+    padding-right: 10px;
+    border-radius: 40px; }
+
+.nosotros-text-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  color: white;
+  font-size: 0.8rem;
+  padding-left: 20px;
+  padding-right: 50px; }
+  .nosotros-text-2 h2 {
+    font-size: 2rem;
+    font-weight: bold; }
