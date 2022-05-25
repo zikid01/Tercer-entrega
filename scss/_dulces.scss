@@ -1,3 +1,5 @@
+@import "variables";
+
 #main-dulces{
     background-color: rgb(19, 18, 18);
 }
@@ -10,14 +12,12 @@
     "dulce-1 dulce-2"
     "dulce-3 dulce-4";
     h3{
-        font-weight: bold;
-        font-size: 1.8rem;
+        @include weight-size(bold, 1em)
     }
     
     li{
         font-size: 1rem;
     }
-
 }
 
 
