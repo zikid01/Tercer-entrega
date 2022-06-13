@@ -221,8 +221,8 @@ nav li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e9cc95;
-  color: #383838;
+  background-color: #e7cc9a;
+  color: black;
   font-size: 2rem; }
 
 .container-form {
@@ -247,7 +247,7 @@ nav li:hover {
 .mensaje button {
   padding: 1rem;
   font-weight: 400;
-  background-color: #4a4aee;
+  background-color: wheat;
   border-radius: 2rem;
   border: none;
   outline: none;
@@ -258,7 +258,7 @@ nav li:hover {
   color: #fff; }
 
 .mensaje button:hover {
-  background-color: #6464f8; }
+  background-color: wheat; }
 
 .formulario {
   width: 400px;
@@ -290,7 +290,7 @@ nav li:hover {
   transition: all .3s ease-in; }
 
 .border-icon:hover {
-  background-color: #4a4aee;
+  background-color: wheat;
   cursor: pointer; }
 
 .cuenta-gratis {
