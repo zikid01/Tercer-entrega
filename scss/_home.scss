@@ -1,12 +1,17 @@
 
 /* Menu */
-
+body{
+    background-color: whitesmoke;
+}
 
 #menu a{
     font-size: 1rem;
     color: black;
 }
-
+main{
+    background-color:rgb(233, 204, 149) ;
+    
+}
 
 .carousel-inner{
     max-height: 900px;
@@ -22,12 +27,12 @@
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    color: rgb(41, 41, 41);
+    color: rgb(48, 47, 47);
 }
 
 .card{
     margin: 20px;
-    background-color:rgb(105, 117, 125) ;
+    background-color:wheat ;
 
     img{
     height: 400px;
@@ -44,19 +49,23 @@
     p{
         color: rgb(46, 46, 46);
         font-size: 1em;
-        margin: 15px;
     }
 }
 }
 .destacadas-mes{
-    padding: 50px;
-    background-color:rgb(105, 117, 125) ;
+    padding: 100px;
+    background-color:rgb(231, 204, 154) ;
 }
-.destacadas-mes h2, p{
-    padding: 20px;
-    text-align: center;
-    max-width: 1000px;
-    margin: auto;
+.destacadas-mes{
+    h2{
+        text-align: center;
+    }
+    p{
+        padding: 75px 0px 100px 0px;
+        text-align: center;
+        max-width: 1000px;
+        margin: auto; 
+    }
     
 }
 
@@ -67,19 +76,21 @@
 }
 .destacadas{
     img{
-        
-        padding: 10px;
+        border: solid 1px wheat;
+        border-radius:30px ;
+        margin: 10px;
         width: 250px;
         height: 200px;
     }
 }
 
 nav{
-    
+    background-color: whitesmoke;
     a{
     text-decoration: none;
+    padding-right: 10px;
     }
     li{
-    color: rgb(180, 180, 180);
+    color: black;
     }
 }
