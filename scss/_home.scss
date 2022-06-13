@@ -14,7 +14,7 @@ main{
 }
 
 .carousel-inner{
-    max-height: 900px;
+    max-height: 850px;
     
 }
 
@@ -92,5 +92,13 @@ nav{
     }
     li{
     color: black;
+    text-align: center;
     }
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.d-flex {
+    display: flex!important;
+    justify-content: center;
 }

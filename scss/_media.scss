@@ -1,16 +1,29 @@
-@media (min-width: 576px){
-.card-group {
-    padding-bottom: 75px !important;
+@media (max-width: 576px){
+.row{
+    display: block !important;
 }
+.col-4 {
+    width: 100% !important; 
 }
 
+
+@media (min-width: 576px){
+    .card-group {
+        padding-bottom: 75px !important;
+    }
+    
+}
 @media screen and (max-width: 768px) {
     // home
+    .carousel-inner{
+        max-height: 400px;
+        
+    }
     .card{
         margin: 3px;
     
         img{
-        height: 300px;
+        height: 400px;
     }
     .row{
      
@@ -32,9 +45,12 @@
     display: block;
 
 }
-.bg-destacadas h2, p{
-    margin: auto;
-    max-width: fit-content;
+// chefs
+.chefs-container{
+    display: block;
+    img{
+        height: 100;
+    }
 }
     
 
@@ -101,9 +117,6 @@
         font-size: 1rem;
     }
 }
-}
-
-
 
 
     .container-dulce-grid{
@@ -116,7 +129,7 @@
         "dulce-4" ;
     
     }
-
+}
 // contactanos
     #form {
         font-size: 0.8rem;
@@ -127,61 +140,24 @@
         display: none;
     }
 
+    
+ 
+    @media (max-width: 924px){
     .main_nosotros{
-        background-color: #222;
-        display: flex;
-        
-        padding-top: 20vh;
-        padding-bottom: 30vh;
-    
-    img{
-        padding-left: 50px;
-        max-height: 400px;
-        width: 400px;
-        border-radius: 50px;
-    }
-    }
-    .nosotros-text{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        color: rgb(228, 228, 228);
-        font-size: 0.8rem;
-        padding-left: 20px;
-        padding-right: 20px;
-    
-    h2{
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    }
+        display: block;
 
-    .main-nosotros-2{
-        background-color: #222;
-        padding-bottom: 100px;
-        display: flex;
-        
-    
-    
     img{
-        height: 300px;
-        width: 300px;
-        padding-right: 10px;
-        border-radius: 40px;
+        display: none;
+
     }
+}
+    .main-nosotros-2{
+        display: block;
+
+    img{
+        display: none;
+
     }
-    .nosotros-text-2{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        color: white;
-        font-size: 0.8rem;
-        padding-left: 20px;
-        padding-right: 50px;
-    
-    h2{
-        font-size: 2rem;
-        font-weight: bold;
-    
-    }
-    }
+}
+}
+}

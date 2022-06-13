@@ -11,7 +11,7 @@ main {
   background-color: #e9cc95; }
 
 .carousel-inner {
-  max-height: 900px; }
+  max-height: 850px; }
 
 .section-text {
   max-width: 1600px;
@@ -67,7 +67,15 @@ nav {
     text-decoration: none;
     padding-right: 10px; }
   nav li {
-    color: black; }
+    color: black;
+    text-align: center; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+.d-flex {
+  display: flex !important;
+  justify-content: center; }
 
 body {
   font-family: 'Bebas Neue', cursive; }
@@ -91,9 +99,11 @@ main {
     opacity: 1; } }
 
 #menu a:hover {
+  color: #ecc57d;
   transform: scale(1.05); }
 
 nav li:hover {
+  color: #ecc57d;
   transform: scale(1.05); }
 
 #main-dulces {
@@ -314,34 +324,42 @@ nav li:hover {
   color: #222; }
 
 .main_nosotros {
-  background-color: #222;
+  background-color: #e7cc9a;
   display: flex;
   padding-top: 20vh;
   padding-bottom: 30vh; }
   .main_nosotros img {
     padding-left: 50px;
     max-height: 400px;
-    width: 600px;
+    width: 400px;
     border-radius: 50px; }
+
+.main-nosotros img {
+  padding-left: 50px;
+  max-height: 400px;
+  width: 600px;
+  border-radius: 50px;
+  background-color: #e7cc9a; }
 
 .nosotros-text {
   display: flex;
   flex-direction: column;
   text-align: start;
-  color: #e4e4e4;
-  font-size: 1.6rem;
-  padding-left: 100px;
-  padding-right: 100px; }
+  color: black;
+  padding-left: 50px;
+  padding-right: 20px; }
   .nosotros-text h2 {
-    font-size: 2.5rem;
+    font-size: 4em;
     font-weight: bold; }
+  .nosotros-text p {
+    font-size: 1.5em; }
 
 .main-nosotros-2 {
-  background-color: #222;
-  padding-bottom: 100px;
+  background-color: #e7cc9a;
+  padding-bottom: 30vh;
   display: flex; }
   .main-nosotros-2 img {
-    width: 500px;
+    width: 300px;
     padding-right: 50px;
     border-radius: 80px; }
 
@@ -349,23 +367,53 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   text-align: start;
-  color: white;
-  font-size: 1.5rem;
+  color: black;
   padding-left: 20px;
   padding-right: 50px; }
-  .nosotros-text-2 .nosotros-text-2 h2 {
-    font-size: 2.5rem;
+  .nosotros-text-2 p {
+    font-size: 1.5rem; }
+  .nosotros-text-2 h2 {
+    font-size: 4rem;
     font-weight: bold; }
 
-@media (min-width: 576px) {
+.chefs {
+  margin: 30px;
+  padding-bottom: 200px; }
+  .chefs h2 {
+    padding-bottom: 50px;
+    font-size: 2.5em;
+    text-align: center; }
+  .chefs h4 {
+    text-align: center; }
+  .chefs p {
+    text-align: center;
+    margin: 20px; }
+  .chefs img {
+    border-radius: 100px;
+    height: 200px;
+    width: 80%; }
+
+.chefs-container {
+  display: flex;
+  justify-content: space-evenly; }
+
+@media (max-width: 576px) {
+  .row {
+    display: block !important; }
+  .col-4 {
+    width: 100% !important; } }
+
+@media (max-width: 576px) and (min-width: 576px) {
   .card-group {
     padding-bottom: 75px !important; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) and (max-width: 768px) {
+  .carousel-inner {
+    max-height: 400px; }
   .card {
     margin: 3px; }
     .card img {
-      height: 300px; }
+      height: 400px; }
     .card .row {
       text-align: center; }
   .destacadas-mes {
@@ -376,9 +424,10 @@ nav li:hover {
     height: 300px; }
   #destacadas {
     display: block; }
-  .bg-destacadas h2, p {
-    margin: auto;
-    max-width: fit-content; }
+  .chefs-container {
+    display: block; }
+    .chefs-container img {
+      height: 100; }
   .container-grid {
     padding: 4px;
     grid-template-columns: repeat(1, 1fr);
@@ -410,60 +459,24 @@ nav li:hover {
     .salado-4 h3 {
       font-size: 1.2rem; }
     .salado-4 li {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .container-dulce-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "dulce-1" "dulce-2" "dulce-3" "dulce-4"; } }
 
-.container-dulce-grid {
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas: "dulce-1" "dulce-2" "dulce-3" "dulce-4"; }
+@media (max-width: 576px) {
+  #form {
+    font-size: 0.8rem; }
+  .Bienvenido {
+    display: none; } }
 
-#form {
-  font-size: 0.8rem; }
-
-.Bienvenido {
-  display: none; }
-
-.main_nosotros {
-  background-color: #222;
-  display: flex;
-  padding-top: 20vh;
-  padding-bottom: 30vh; }
-  .main_nosotros img {
-    padding-left: 50px;
-    max-height: 400px;
-    width: 400px;
-    border-radius: 50px; }
-
-.nosotros-text {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  color: #e4e4e4;
-  font-size: 0.8rem;
-  padding-left: 20px;
-  padding-right: 20px; }
-  .nosotros-text h2 {
-    font-size: 2rem;
-    font-weight: bold; }
-
-.main-nosotros-2 {
-  background-color: #222;
-  padding-bottom: 100px;
-  display: flex; }
-  .main-nosotros-2 img {
-    height: 300px;
-    width: 300px;
-    padding-right: 10px;
-    border-radius: 40px; }
-
-.nosotros-text-2 {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  color: white;
-  font-size: 0.8rem;
-  padding-left: 20px;
-  padding-right: 50px; }
-  .nosotros-text-2 h2 {
-    font-size: 2rem;
-    font-weight: bold; }
+@media (max-width: 576px) and (max-width: 924px) {
+  .main_nosotros {
+    display: block; }
+    .main_nosotros img {
+      display: none; }
+  .main-nosotros-2 {
+    display: block; }
+    .main-nosotros-2 img {
+      display: none; } }
